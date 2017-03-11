@@ -1,5 +1,6 @@
 # Make a color map perceptually uniform
 # Inspired from https://bids.github.io/colormap/
+# Depends: numpy, matplotlib, scipy
 # Usage:
 #   python unify_cm.py hot.csv
 # Then you may run it multiple times to get a better result
