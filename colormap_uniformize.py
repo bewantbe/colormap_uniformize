@@ -1,13 +1,14 @@
+#!/usr/bin/env python
 # Make a color map perceptually uniform
 # Inspired from https://bids.github.io/colormap/
 # Depends: numpy, matplotlib, scipy
 # Usage:
-#   python unify_cm.py hot.csv
+#   python colormap_uniformize.py hot.csv
 # Then you may run it multiple times to get a better result
-#   python unify_cm.py tmp_cmap.csv
-#   python unify_cm.py tmp_cmap.csv
-#   python unify_cm.py tmp_cmap.csv
-#   python unify_cm.py tmp_cmap.csv
+#   python colormap_uniformize.py tmp_cmap.csv
+#   python colormap_uniformize.py tmp_cmap.csv
+#   python colormap_uniformize.py tmp_cmap.csv
+#   python colormap_uniformize.py tmp_cmap.csv
 
 import sys
 import time
